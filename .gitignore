@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Files (不上传大模型文件)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.tflite
+
+# Output directories (训练输出)
+outputs/
+checkpoints/
+logs/
+wandb/
+runs/
+results/
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+hf_cache/
+
+# Data (可选，如果数据集很大)
+# data/*.parquet
+# data/*.json
+# data/*.jsonl
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# OS
+Thumbs.db
