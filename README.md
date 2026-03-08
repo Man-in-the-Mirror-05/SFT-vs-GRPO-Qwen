@@ -1,4 +1,4 @@
-# RLVR vs SFT: Qwen2.5-1.5B on GSM8K
+# GRPO vs SFT: Qwen2.5-1.5B on GSM8K
 
 使用 **Qwen2.5-1.5B-Instruct** 在 **GSM8K** 数据集上对比 **SFT** 和 **GRPO** 训练效果。
 
